@@ -1,0 +1,362 @@
+.background{
+    background-color: rgb(75, 75, 255);
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.formdiv{
+    margin-top: 10%;
+    background-color: white;
+    width:400px;
+    margin: auto;
+    margin-top: 10%;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+label{
+    font-weight: bold;
+    margin-left:20px;
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.create{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    height: 70px;
+}
+.headtext{
+    position: relative;
+    top:20px;
+    margin-left: 30px;
+}
+.inputa{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    margin-top: 6px;
+}
+.inputb{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    margin-top: 6px;
+}
+.inputc{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    margin-top: 6px;
+}
+.inputd{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    margin-top: 6px;
+}
+
+.inputa:focus{
+    outline: none !important;
+}
+.inputb:focus{
+    outline: none !important;
+}
+.inputc:focus{
+    outline: none !important;
+}
+.inputd:focus{
+    outline: none !important;
+}
+.inputafail{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid rgb(236, 41, 41);
+    margin-top: 6px;
+}
+.inputbfail{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid rgb(236, 41, 41);
+    margin-top: 6px;
+}
+.inputcfail{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid rgb(236, 41, 41);
+    margin-top: 6px;
+}
+.inputdfail{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid rgb(236, 41, 41);
+    margin-top: 6px;
+}
+
+
+.inpuafail:focus{
+    outline:none !important;
+}
+
+#check{
+    position: relative;
+    right: 30px;
+    visibility: hidden;
+    font-size: 20px
+}
+#checkb{
+    position: relative;
+    right: 30px;
+    visibility: hidden;
+    font-size: 20px
+}
+#checkc{
+    position: relative;
+    right: 30px;
+    visibility: hidden;
+    font-size: 20px
+}
+#checkd{
+    position: relative;
+    right: 30px;
+    visibility: hidden;
+    font-size: 20px
+}
+
+#excla{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: hidden;
+    font-size: 20px
+}
+#exclab{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: hidden;
+    font-size: 20px
+}
+#exclabred{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: visible;
+    font-size: 20px;
+    color:rgb(236, 41, 41);
+}
+#exclac{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: hidden;
+    font-size: 20px
+}
+#exclad{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: hidden;
+    font-size: 20px
+}
+#exclacred{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: visible;
+    font-size: 20px;
+    color:rgb(236, 41, 41);
+}
+#excladred{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: visible;
+    font-size: 20px;
+    color:rgb(236, 41, 41);
+}
+
+.message{
+    color: rgb(236, 41, 41);
+    padding-left: 20px;
+}
+
+#hey{
+    position: relative;
+    bottom: 33px;
+    left: 360px;
+    visibility: visible;
+    font-size: 20px;
+    color:  #2ecc71
+}
+
+#heyred{
+    position: relative;
+    left: 340px;
+    bottom:33px;
+    visibility: visible;
+    font-size: 20px;
+    color: rgb(236, 41, 41)   
+}
+ 
+.suceed{
+    visibility:  visible;
+    color: #2ecc71
+}
+.inputasucced:focus{
+    outline:none !important;
+}
+.inputbsucced:focus{
+    outline:none !important;
+}
+.inputcsucced:focus{
+    outline:none !important;
+}
+.inputdsucced:focus{
+    outline:none !important;
+}
+
+
+
+.inputasucced{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid  #2ecc71;
+    margin-top: 6px;
+}
+.inputbsucced{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid  #2ecc71;
+    margin-top: 6px;
+}
+.inputcsucced{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid  #2ecc71;
+    margin-top: 6px;
+}
+.inputdsucced{
+    width: 350px;
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 2px;
+    border: 2px solid  #2ecc71;
+    margin-top: 6px;
+}
+
+.inputa::placeholder{
+    padding-left: 20px;
+    font-weight: bolder;
+
+}
+.inputb::placeholder{
+    padding-left: 20px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.inputc::placeholder{
+    padding-left: 20px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.inputd::placeholder{
+    padding-left: 20px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.inputa[type = text]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputafail[type = text]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputasucced[type = text]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputb[type = email]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputbfail[type = email]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputbsucced[type = email]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputc[type = password]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputd[type = password]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputcfail[type = password]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputcsucced[type = password]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputdfail[type = password]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.inputdsucced[type = password]{
+    padding-left: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+
+
+.btn{
+    background-color:  rgb(75, 75, 255);
+    color:white;
+    width: 350px;
+    text-align: center;
+    margin-left:20px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+}
